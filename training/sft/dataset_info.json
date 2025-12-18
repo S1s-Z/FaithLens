@@ -1,0 +1,10 @@
+{
+  "sft_data":{
+    "file_name":"path to sft data",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
