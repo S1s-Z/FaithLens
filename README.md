@@ -1,6 +1,6 @@
-<h1 
+<h1 align="center"> 
     <img src="./images/logo.png" alt="FaithLens Logo" width="40" style="vertical-align: middle;">
-    align="center">FaithLens
+    FaithLens
 </h1>
 
 <p align="center">
