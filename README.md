@@ -43,6 +43,7 @@ To run SFT training, execute:
 
 ```bash
 bash training/sft/train_llama8b_instruct.sh
+```
 
 ### Rule-Based Reinforcement Learning (RL)
 
@@ -53,6 +54,8 @@ To start RL training, run:
 
 ```bash
 bash training/verl/rl_training.sh
+```
+
 
 ---
 
