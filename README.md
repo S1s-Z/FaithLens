@@ -83,4 +83,9 @@ To run inference and benchmark evaluation, execute:
 bash benchmarks/infer.sh
 ```
 
+## Evaluation
+We provide separate environments for different stages of the pipeline, as the dependencies required for supervised fine-tuning, reinforcement learning, and evaluation are not identical.
+
+Each stage has its own requirements.txt, located in the corresponding directory.
+
 ## Citation
