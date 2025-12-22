@@ -5,11 +5,11 @@
 <a href="https://arxiv.org/abs/XXXX.XXXXX">
 <img alt="Static Badge" src="https://img.shields.io/badge/arXiv-FaithLens-red"></a>
 
-<a href="https://huggingface.co/">
+<a href="https://huggingface.co/ssz1111/FaithLens">
     <img alt="Static Badge" src="https://img.shields.io/badge/Model-HuggingFace-yellow">
 </a>
 
-<a href="https://huggingface.co/datasets/">
+<a href="https://huggingface.co/datasets/ssz1111/FaithLens">
     <img alt="Static Badge" src="https://img.shields.io/badge/Dataset-HuggingFace-blue">
 </a>
 
