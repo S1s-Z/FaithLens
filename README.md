@@ -56,6 +56,14 @@ To start RL training, run:
 bash training/verl/rl_training.sh
 ```
 
+### Evaluation
+
+We provide scripts to reproduce the benchmark results reported in the paper, including evaluations on LLM-AggreFact and HoVer.
+
+To run inference and benchmark evaluation, execute:
+```bash
+bash benchmarks/infer.sh
+```
 
 ---
 
