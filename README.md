@@ -46,7 +46,7 @@ Experiments across 12 diverse benchmarks show that FaithLens outperforms advance
 
 ### Cold-Start Supervised Fine-Tuning (SFT)
 
-In the cold-start supervised fine-tuning (SFT) stage, we initialize FaithLens with high-quality synthetic data that includes both hallucination labels and corresponding explanations.  
+In the cold-start SFT stage, we initialize FaithLens with high-quality synthetic data that includes both hallucination labels and corresponding explanations.  
 This stage equips the model with the ability to jointly perform faithfulness hallucination detection and explanation generation.
 
 To run SFT training, execute:
