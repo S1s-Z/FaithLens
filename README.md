@@ -7,11 +7,9 @@
 <a href="https://arxiv.org/abs/XXXX.XXXXX">
 <img alt="Static Badge" src="https://img.shields.io/badge/arXiv-FaithLens-red"></a>
 <a href="https://huggingface.co/ssz1111/FaithLens">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Model-HuggingFace-yellow">
-</a>
+    <img alt="Static Badge" src="https://img.shields.io/badge/Model-HuggingFace-yellow"></a>
 <a href="https://huggingface.co/datasets/ssz1111/FaithLens">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Dataset-HuggingFace-blue">
-</a>
+    <img alt="Static Badge" src="https://img.shields.io/badge/Dataset-HuggingFace-blue"></a>
 </p>
 
 This repository contains the official implementation for **FaithLens**, a cost-efficient and explainable model for **faithfulness hallucination detection**.
