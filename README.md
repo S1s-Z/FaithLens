@@ -78,3 +78,4 @@ To run inference and benchmark evaluation, execute:
 bash benchmarks/infer.sh
 ```
 
+## Citation
