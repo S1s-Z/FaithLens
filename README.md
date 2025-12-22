@@ -31,5 +31,28 @@ FaithLens is trained in two stages:
 
 Experiments across 12 diverse benchmarks show that FaithLens outperforms advanced LLMs (e.g., GPT-4.1, o3) while maintaining significantly lower inference cost.
 
+
+## Training
+
+### Cold-Start Supervised Fine-Tuning (SFT)
+
+In the cold-start supervised fine-tuning (SFT) stage, we initialize FaithLens with high-quality synthetic data that includes both hallucination labels and corresponding explanations.  
+This stage equips the model with the ability to jointly perform faithfulness hallucination detection and explanation generation.
+
+To run SFT training, execute:
+
+```bash
+bash training/sft/train_llama8b_instruct.sh
+
+### Rule-Based Reinforcement Learning (RL)
+
+After SFT, FaithLens is further optimized using a rule-based reinforcement learning (RL) stage.
+This stage adopts a GRPO-style policy optimization framework and leverages a composite reward consisting of prediction correctness, explanation quality, and output format.
+
+To start RL training, run:
+
+```bash
+bash training/verl/rl_training.sh
+
 ---
 
