@@ -31,8 +31,8 @@ Recognizing whether outputs from large language models (LLMs) contain faithfulne
 2. Generates **human-readable explanations** to justify its prediction.
 
 FaithLens is trained in two stages:
-- **Cold-start Supervised Fine-Tuning (SFT)** on high-quality synthetic data with explanations.
-- **Rule-based Reinforcement Learning (RL)** to further optimize both prediction accuracy and explanation quality.
+- **Cold-start SFT** on high-quality synthetic data with explanations.
+- **Rule-based RL** to further optimize both prediction accuracy and explanation quality.
 
 Experiments across 12 diverse benchmarks show that FaithLens outperforms advanced LLMs (e.g., GPT-4.1, o3) while maintaining significantly lower inference cost.
 
@@ -46,8 +46,7 @@ Experiments across 12 diverse benchmarks show that FaithLens outperforms advance
 
 ### Cold-Start Supervised Fine-Tuning (SFT)
 
-In the cold-start SFT stage, we initialize FaithLens with high-quality synthetic data that includes both hallucination labels and corresponding explanations.  
-This stage equips the model with the ability to jointly perform faithfulness hallucination detection and explanation generation.
+In the cold-start SFT stage, we initialize FaithLens with high-quality synthetic data that includes both hallucination labels and corresponding explanations. This stage equips the model with the ability to jointly perform faithfulness hallucination detection and explanation generation.
 
 To run SFT training, execute:
 
