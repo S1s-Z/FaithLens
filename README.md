@@ -67,10 +67,14 @@ bash training/verl/rl_training.sh
 ### Installation
 
 #### Method 1
-You can choose first ```sh git clone https://github.com/S1s-Z/FaithLens.git```</br>
-Then ```sh cd faithlens```</br>
-And Then ```sh pip install .```</br>
-After the installation, you can run ```sh python quickstart.py``` to try our model.
+You can follow these steps to use our package:
+```sh
+git clone https://github.com/S1s-Z/FaithLens.git
+cd faithlens
+pip install .
+```
+
+After the installation, you can run ```python quickstart.py``` to try our model.
 
 #### Method 2
 The following command will install the MiniCheck package and all necessary dependencies.
@@ -90,7 +94,7 @@ os.environ['NLTK_DATA'] = './nltk'
 from faithlens.inference import FaithLensInfer
 import json
 
-# Label explanation:
+# Predicted Label:
 # 0 indicates the claim is hallucinated (the claim is not supported by the document)
 # 1 indicates the claim is faithful (supported by the document)
 
