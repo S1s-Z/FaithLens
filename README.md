@@ -66,7 +66,46 @@ bash training/verl/rl_training.sh
 
 ### Installation
 
+#### Method 1
+You can follow these steps to use our package:
+```sh
+git clone https://github.com/S1s-Z/FaithLens.git
+cd faithlens
+pip install .
+```
+
+After the installation, you can run ```python quickstart.py``` to try our model.
+
+#### Method 2
+The following command will install the MiniCheck package and all necessary dependencies.
+
+```sh
+pip install "faithlens @ git+https://github.com/S1s-Z/FaithLens.git@master"
+```
+
 ### Usage
+Our FaithLens is available on HuggingFace 🤗. More model details can be found from this [link](https://huggingface.co/datasets/ssz1111/FaithLens). 
+
+Below is a simple use case of FaithLens. FaithLens will be automatically downloaded from Huggingface for the first time and cached in the specified directory.
+
+```python
+import os
+os.environ['NLTK_DATA'] = './nltk'
+from faithlens.inference import FaithLensInfer
+import json
+
+# Predicted Label:
+# 0 indicates the claim is hallucinated (the claim is not supported by the document)
+# 1 indicates the claim is faithful (supported by the document)
+
+detection_model = FaithLensInfer(model_name="ssz1111/FaithLens", device="cuda:0")
+single_result = detection_model.infer(
+    docs=["Relegation-threatened Romanian club Ceahlaul Piatra Neamt have sacked Brazilian coach Ze Maria for the second time in a week. Former Brazil defender Ze Maria was fired on Wednesday after a poor run, only to be reinstated the next day after flamboyant owner Angelo Massone decided to 'give the coaching staff another chance.' But the 41-year-old former Inter Milan and Parma right back, capped 25 times by Brazil, angered Massone again after Ceahlaul were beaten 2-0 by mid-table FC Botosani on Saturday. Ze Maria represented Brazil on 25 occasions during an international career spanning five years . The result left Ceahlaul 16th in the standings, six points adrift of safety. Ze Maria replaced Florin Marin in January to become Ceahlaul's third coach this season. He will be replaced by Serbian Vanya Radinovic."],
+    claims=["Former brazil defender ze maria was fired on wednesday after a poor run. The 41-year-old was reinstated the next day after flamboyant owner angelo massone decided to'give the coaching staff another chance' but the 41-year-old angered massone again after ceahlaul were beaten 2-0 by mid-table fc botosani on saturday."],
+)
+print("Single Result:")
+print(json.dumps(single_result, ensure_ascii=False, indent=2))
+```
 
 
 
