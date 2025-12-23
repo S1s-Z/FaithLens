@@ -72,7 +72,7 @@ Then ```cd faithlens```</br>
 And Then ```pip install .```</br>
 After the installation ,you can run ```python quickstart.py``` to try our model
 
-### Method 2
+#### Method 2
 The following command will install the MiniCheck package and all necessary dependencies.
 
 ```pip install "faithlens @ git+https://github.com/S1s-Z/FaithLens.git@master"```
