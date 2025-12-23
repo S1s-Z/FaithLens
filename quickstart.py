@@ -1,5 +1,3 @@
-import os
-os.environ['NLTK_DATA'] = './nltk'
 from faithlens.inference import FaithLensInfer
 import json
 

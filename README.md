@@ -70,7 +70,7 @@ bash training/verl/rl_training.sh
 You can follow these steps to use our package:
 ```sh
 git clone https://github.com/S1s-Z/FaithLens.git
-cd faithlens
+cd Faithlens
 pip install .
 ```
 
@@ -89,8 +89,6 @@ Our FaithLens is available on HuggingFace 🤗. More model details can be found 
 Below is a simple use case of FaithLens. FaithLens will be automatically downloaded from Huggingface for the first time and cached in the specified directory.
 
 ```python
-import os
-os.environ['NLTK_DATA'] = './nltk'
 from faithlens.inference import FaithLensInfer
 import json
 
