@@ -12,7 +12,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/Dataset-HuggingFace-blue"></a>
 </p>
 
-This repository contains the official implementation for **FaithLens**, a cost-efficient and explainable model for **faithfulness hallucination detection**.
+This repository contains **FaithLens**, a cost-efficient and explainable model for **faithfulness hallucination detection**.
 <p align="center">
     <img src="./images/intro.png" width="360">
 </p>
