@@ -66,6 +66,17 @@ bash training/verl/rl_training.sh
 
 ### Installation
 
+#### Method 1
+You can choose first ```git clone https://github.com/S1s-Z/FaithLens.git```</br>
+Then ```cd faithlens```</br>
+And Then ```pip install .```</br>
+After the installation ,you can run ```python quickstart.py``` to try our model
+
+### Method 2
+The following command will install the MiniCheck package and all necessary dependencies.
+
+```pip install "faithlens @ git+https://github.com/S1s-Z/FaithLens.git@master"```
+
 ### Usage
 
 
