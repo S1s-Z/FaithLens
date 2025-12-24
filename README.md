@@ -120,3 +120,14 @@ bash benchmarks/infer.sh
 We provide separate environments for different stages during the model training, as the dependencies required for supervised fine-tuning, reinforcement learning, and benchmark evaluation are not identical. Each stage has its own requirements.txt, located in the corresponding directory. Meanwhile, if you only wish to use FaithLens for detecting hallucinations, you only need to use the requirements.txt file within the first-level folder.
 
 ## Citation
+```bibtex
+@misc{si2025faithlensdetectingexplainingfaithfulness,
+      title={FaithLens: Detecting and Explaining Faithfulness Hallucination}, 
+      author={Shuzheng Si and Qingyi Wang and Haozhe Zhao and Yuzhuo Bai and Guanqiao Chen and Kangyang Luo and Gang Chen and Fanchao Qi and Minjia Zhang and Baobao Chang and Maosong Sun},
+      year={2025},
+      eprint={2512.20182},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.20182}, 
+}
+```
