@@ -84,7 +84,7 @@ pip install "faithlens @ git+https://github.com/S1s-Z/FaithLens.git@master"
 ```
 
 ### Usage
-Our FaithLens is available on HuggingFace 🤗. More model details can be found from this [link](https://huggingface.co/datasets/ssz1111/FaithLens). 
+Our FaithLens is available on HuggingFace 🤗. More model details can be found from this [link](https://huggingface.co/ssz1111/FaithLens). 
 
 Below is a simple use case of FaithLens. FaithLens will be automatically downloaded from Huggingface for the first time and cached in the specified directory.
 
