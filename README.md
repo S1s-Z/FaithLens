@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-<a href="https://arxiv.org/abs/XXXX.XXXXX">
+<a href="https://arxiv.org/abs/2512.20182">
 <img alt="Static Badge" src="https://img.shields.io/badge/arXiv-FaithLens-red"></a>
 <a href="https://huggingface.co/ssz1111/FaithLens">
     <img alt="Static Badge" src="https://img.shields.io/badge/Model-HuggingFace-yellow"></a>
